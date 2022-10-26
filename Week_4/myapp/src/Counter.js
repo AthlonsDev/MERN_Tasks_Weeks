@@ -48,3 +48,4 @@ function CounterApp() {
         </>
     )
 }
+export default CounterApp();
