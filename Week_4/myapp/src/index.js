@@ -5,6 +5,7 @@ import App from './App';
 import Greeting from './MyGreetingApp'
 import GreetingProp from './MyGreetingProp'
 import ColorApp from './AppBackgroundColor'
+import Counter from './Counter'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -12,9 +13,12 @@ root.render(
   <React.StrictMode>
     {/* <GreetingProp msg = "Hi it's Monday" /> */}
     {/* <Greeting/> */}
-    <ColorApp heading="This is first element" lbl="Name :" color="green"/>
+    {/* <ColorApp heading="This is first element" lbl="Name :" color="green"/>
     <ColorApp heading="This is the second element" lbl="Name :" color="red"/>
-    <ColorApp heading="This is the third element" lbl="Name :" color="blue"/>
+    <ColorApp heading="This is the third element" lbl="Name :" color="blue"/> */}
+
+    <Counter/>
+
   </React.StrictMode>
 );
 
