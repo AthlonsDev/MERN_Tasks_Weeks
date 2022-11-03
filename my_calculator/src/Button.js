@@ -1,4 +1,4 @@
-import App from "./App";
+import App from "./Calculator";
 import './App.css'
 // import './Calculator.css'
 import React from "react";
